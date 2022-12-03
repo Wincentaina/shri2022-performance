@@ -56,6 +56,7 @@ html, body {
     margin-right: 3.25rem;
     background: no-repeat 50% 50% url(assets/logo.svg);
     background-size: contain;
+    loading: "lazy"
 }
 
 .header__menu {
@@ -69,6 +70,7 @@ html, body {
     border-radius: 0;
     appearance: none;
     cursor: pointer;
+    loading: "lazy"
 }
 
 @media (max-width: 768px) {
@@ -225,6 +227,7 @@ html, body {
     font-weight: bold;
     background: no-repeat calc(100% - 1rem) 50% #FFD93E url(assets/arrow-down.svg);
     appearance: none;
+    loading: "lazy"
 }
 
 @media (max-width: 768px) {
@@ -279,6 +282,7 @@ html, body {
     /*background-size: cover;*/
     background-size: 1260px;
     border-radius: 1.25rem;
+    loading: "lazy"
 }
 
 @media (max-width: 768px) {
@@ -390,6 +394,7 @@ html, body {
 
 .hero-dashboard__icon_rain {
     background-image: url(assets/cloud-drizzle.svg);
+    loading: "lazy"
 }
 
 .hero-dashboard__schedule {
@@ -457,22 +462,27 @@ html, body {
 
 .event__icon_temp {
     background-image: url(assets/icon_temperature.svg);
+    loading: "lazy"
 }
 
 .event__icon_temp2 {
     background-image: url(assets/icon_temperature_2.svg);
+    loading: "lazy"
 }
 
 .event__icon_light {
     background-image: url(assets/icon_sun.svg);
+    loading: "lazy"
 }
 
 .event__icon_light2 {
     background-image: url(assets/icon_sun_2.svg);
+    loading: "lazy"
 }
 
 .event__icon_schedule {
     background-image: url(assets/icon_scheduled.svg);
+    loading: "lazy"
 }
 
 .event__title {
