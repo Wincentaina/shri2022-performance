@@ -398,6 +398,11 @@ html, body {
 
 .hero-dashboard__icon_rain {
     background-image: url(assets/cloud-drizzle.svg);
+    /*background-image: image-set(*/
+    /*        url(assets/cloud-drizzle.svg) 1x,*/
+    /*        url(assets/cloud-drizzle.svg) 2x,*/
+    /*        url(assets/cloud-drizzle.svg) 3x*/
+    /*);*/
     loading: "lazy";
     decoding: "async";
 }
